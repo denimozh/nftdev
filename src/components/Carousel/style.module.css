@@ -1,0 +1,30 @@
+.container {
+    max-width: 124rem;
+    padding: 4rem 1rem;
+    margin: 0 auto;
+  }
+  
+  .heading {
+    padding: 1rem 0;
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  
+  .swiper_container {
+    height: 64rem;
+    padding: 2rem 0;
+    position: relative;
+    padding-right: 10px;
+  }
+  
+  .swiper_slide {
+    width: 37rem;
+    height: 36rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    flex: content;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
