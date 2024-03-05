@@ -28,3 +28,10 @@
     justify-items: center;
     align-items: center;
   }
+
+  .swiper-slide img {
+    width: 37rem;
+    height: 42rem;
+    border-radius: 2rem;
+    object-fit: cover;
+  }
