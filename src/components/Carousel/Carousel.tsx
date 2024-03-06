@@ -20,7 +20,7 @@ const Carousel = () => {
                     loop={true}
                     slidesPerView={'auto'}
                     autoplay={{
-                        delay: 3000,
+                        delay: 1000,
                     }}
                     coverflowEffect={{
                         rotate: 0,
