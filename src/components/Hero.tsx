@@ -1,5 +1,5 @@
 import React from 'react'
-import { Carousel, GetStarted, Slider } from '.'
+import { Benefit, Carousel, GetStarted, Slider } from '.'
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 
 const Hero = () => {
@@ -20,6 +20,9 @@ const Hero = () => {
       </div>
       <div>
         <GetStarted/>
+      </div>
+      <div>
+        <Benefit/>
       </div>
     </div>
 
