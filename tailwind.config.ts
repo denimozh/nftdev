@@ -9,7 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       animation:{
-        blob: "blob 5s infinite"
+        blob: "blob 5s infinite",
+        bgMove:"bgMove 5s ease infinite"
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -30,7 +31,17 @@ const config: Config = {
           "100%": {
             transform: "translate(0px, 0px) scale(1)"
           }
-        }
+        },
+        bgMove: {
+          '0%, 100%': {
+             'background-size':'200% 200%',
+              'background-position': 'left center'
+          },
+          '50%': {
+             'background-size':'200% 200%',
+              'background-position': 'right center'
+          }
+        },
       }
     },
   },
