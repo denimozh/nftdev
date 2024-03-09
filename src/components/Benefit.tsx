@@ -4,9 +4,9 @@ import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 const Benefit = () => {
   return (
     <div className='bg-[#FFFBF5]'>
-        <div className='relative px-40 pt-48 pb-32 flex flex-col'>
+        <div className='relative px-40 pt-48 pb-48 flex flex-col'>
             <div className='flex flex-col gap-8'>
-                <p className='text-6xl'>The <RoughNotation type={'underline'} color={'#1945A2'} show={true}><a className=''>Most trusted</a></RoughNotation> NFT Marketplace exchange</p>
+                <p className='text-6xl'>The <RoughNotation type={'underline'} color={'#1945A2'} show={true}><a className=''>Most Trusted</a></RoughNotation> NFT Marketplace exchange</p>
                 <p className='text-3xl'>Millions of users trust us, and so can you. The proof is in our platform</p>
             </div>
             <div className='flex flex-row justify-center items-center gap-20 pt-20'>

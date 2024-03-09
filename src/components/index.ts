@@ -5,6 +5,7 @@ import Slider from "./Slider";
 import GetStarted from "./GetStarted";
 import Benefit from "./Benefit";
 import Carousel from "./Carousel/Carousel";
+import CTA from "./CTA";
 
 export{
     Navbar,
@@ -13,5 +14,6 @@ export{
     Slider,
     Carousel,
     GetStarted,
-    Benefit
+    Benefit,
+    CTA
 }
