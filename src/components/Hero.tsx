@@ -24,7 +24,7 @@ const Hero = () => {
       <div>
         <Benefit/>
       </div>
-      <div className='px-40'>
+      <div className='pb-20 px-40'>
         <CTA/>
       </div>
     </div>
