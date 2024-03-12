@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Navbar = () => {
   return (
@@ -7,8 +8,10 @@ const Navbar = () => {
             <p className='text-3xl text-white'>nft<b className='text-blue-800'>dev</b></p>
         </div>
         <div className='flex flex-row gap-10 text-lg text-white'>
+            <Link href={"/marketplace"}>
+                <p>Marketplace</p>
+            </Link>
             <p>Why Us</p>
-            <p>Services</p>
             <p>Purchase</p>
             <p>Company</p>
         </div>
