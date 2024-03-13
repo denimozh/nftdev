@@ -129,9 +129,29 @@ const page = () => {
                 </div>
             </div>
         </div>
-        <div className='flex flex-row'>
-            <div>
-
+        <div className='flex flex-row px-[100px]'>
+            <div className='flex flex-col gap-5'>
+                <div>
+                    <p>Premium</p>
+                </div>
+                <div>
+                    <p>Art</p>
+                </div>
+                <div>
+                    <p>Sport</p>
+                </div>
+                <div>
+                    <p>Entertainment</p>
+                </div>
+                <div>
+                    <p>Games</p>
+                </div>
+                <div>
+                    <p>Collecting</p>
+                </div>
+                <div>
+                    <p>Cybersports</p>
+                </div>
             </div>
             <div>
 
