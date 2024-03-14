@@ -6,7 +6,10 @@ import { Menu, Transition } from '@headlessui/react'
 import { FaEdit } from "react-icons/fa";
 import { MdDomain } from "react-icons/md";
 import { TbMathLower } from "react-icons/tb";
+import { blue } from '@mui/material/colors';
 import { TbMathGreater } from "react-icons/tb";
+import { Checkbox } from '@mui/material';
+import { PriceSlider } from '@/components';
 
 const page = () => {
   return (
@@ -130,27 +133,43 @@ const page = () => {
             </div>
         </div>
         <div className='flex flex-row px-[100px]'>
-            <div className='flex flex-col gap-5'>
-                <div>
-                    <p>Premium</p>
+            <div className='flex flex-col gap-10 bg-white rounded-[30px] px-5 py-10 w-[350px] shadow-xl'>
+                <div className='flex flex-col gap-3'>
+                    <div className='flex flex-row items-center gap-2'>
+                        <Checkbox inputProps={{ 'aria-label': 'controlled' }} sx={{ '& .MuiSvgIcon-root': { fontSize: 28 }, color: blue[600] }}/>
+                        <p className='text-lg'>Premium</p>
+                    </div>
+                    <div className='flex flex-row items-center gap-2'>
+                        <Checkbox inputProps={{ 'aria-label': 'controlled' }} sx={{ '& .MuiSvgIcon-root': { fontSize: 28 }, color: blue[600] }}/>
+                        <p className='text-lg'>Art</p>
+                    </div>
+                    <div className='flex flex-row items-center gap-2'>
+                        <Checkbox inputProps={{ 'aria-label': 'controlled' }} sx={{ '& .MuiSvgIcon-root': { fontSize: 28 }, color: blue[600] }}/>
+                        <p className='text-lg'>Sport</p>
+                    </div>
+                    <div className='flex flex-row items-center gap-2'>
+                        <Checkbox inputProps={{ 'aria-label': 'controlled' }} sx={{ '& .MuiSvgIcon-root': { fontSize: 28 }, color: blue[600] }}/>
+                        <p className='text-lg'>Entertainment</p>
+                    </div>
+                    <div className='flex flex-row items-center gap-2'>
+                        <Checkbox inputProps={{ 'aria-label': 'controlled' }} sx={{ '& .MuiSvgIcon-root': { fontSize: 28 }, color: blue[600] }}/>
+                        <p className='text-lg'>Games</p>
+                    </div>
+                    <div className='flex flex-row items-center gap-2'>
+                        <Checkbox inputProps={{ 'aria-label': 'controlled' }} sx={{ '& .MuiSvgIcon-root': { fontSize: 28 }, color: blue[600] }}/>
+                        <p className='text-lg'>Collecting</p>
+                    </div>
+                    <div className='flex flex-row items-center gap-2'>
+                        <Checkbox inputProps={{ 'aria-label': 'controlled' }} sx={{ '& .MuiSvgIcon-root': { fontSize: 28 }, color: blue[600] }}/>
+                        <p className='text-lg'>Cybersports</p>
+                    </div>
+                </div>
+                <div className='flex flex-col border-t-2 border-gray-200 pt-6'>
+                    <p className='text-xl text-gray-400 pb-10'>Price Range</p>
+                    <PriceSlider/>
                 </div>
                 <div>
-                    <p>Art</p>
-                </div>
-                <div>
-                    <p>Sport</p>
-                </div>
-                <div>
-                    <p>Entertainment</p>
-                </div>
-                <div>
-                    <p>Games</p>
-                </div>
-                <div>
-                    <p>Collecting</p>
-                </div>
-                <div>
-                    <p>Cybersports</p>
+                    <p>Currency</p>
                 </div>
             </div>
             <div>
