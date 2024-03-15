@@ -170,6 +170,30 @@ const page = () => {
                 </div>
                 <div>
                     <p>Currency</p>
+                    <div className='flex flex-col'>
+                        <div className='flex flex-row'>
+                            <div>
+                                <p></p>
+                            </div>
+                            <div>
+                                <p></p>
+                            </div>
+                            <div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div className='flex flex-row'>
+                            <div>
+                                <p></p>
+                            </div>
+                            <div>
+                                <p></p>
+                            </div>
+                            <div>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div>

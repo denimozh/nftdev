@@ -12,7 +12,7 @@ const PriceSlider = () => {
         setValue(newValue as number[]);
      };
     return (
-        <div>
+        <div className='flex flex-col'>
             <Slider
             getAriaLabel={() => 'Price Range'}
             value={value}
