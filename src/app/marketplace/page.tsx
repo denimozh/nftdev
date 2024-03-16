@@ -10,6 +10,9 @@ import { blue } from '@mui/material/colors';
 import { TbMathGreater } from "react-icons/tb";
 import { Checkbox } from '@mui/material';
 import { PriceSlider } from '@/components';
+import { FaBtc } from "react-icons/fa6";
+import { FaEthereum } from "react-icons/fa";
+import { SiTether } from "react-icons/si";
 
 const page = () => {
   return (
@@ -169,17 +172,20 @@ const page = () => {
                     <PriceSlider/>
                 </div>
                 <div>
-                    <p>Currency</p>
+                    <p className='text-xl text-gray-400 pb-10'>Currency</p>
                     <div className='flex flex-col'>
-                        <div className='flex flex-row'>
-                            <div>
-                                <p></p>
+                        <div className='flex flex-row gap-6'>
+                            <div className='flex flex-row gap-2 items-center'>
+                                <FaBtc className='bg-slate-200 text-slate-400 rounded-full text-2xl p-[3px] pb-1'/>
+                                <p className='text-2xl'>BTC</p>
                             </div>
-                            <div>
-                                <p></p>
+                            <div className='flex flex-row gap-2 items-center'>
+                                <FaEthereum className='bg-slate-200 text-slate-400 rounded-full text-2xl p-[3px] pb-1'/>
+                                <p className='text-2xl'>ETH</p>
                             </div>
-                            <div>
-                                <p></p>
+                            <div className='flex flex-row gap-2 items-center'>
+                                <SiTether className='bg-slate-200 text-slate-400 rounded-full text-2xl p-[3px] pb-1'/>
+                                <p className='text-2xl'>USDT</p>
                             </div>
                         </div>
                         <div className='flex flex-row'>
