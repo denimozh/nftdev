@@ -189,14 +189,11 @@ const page = () => {
                             </div>
                         </div>
                         <div className='flex flex-row'>
-                            <div>
-                                <p></p>
+                            <div className='basis-1/2'>
+                                <p>Clear</p>
                             </div>
-                            <div>
-                                <p></p>
-                            </div>
-                            <div>
-                                <p></p>
+                            <div className='basis-1/2'>
+                                <p>Apply</p>
                             </div>
                         </div>
                     </div>
