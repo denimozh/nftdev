@@ -174,27 +174,27 @@ const page = () => {
                 <div>
                     <p className='text-xl text-gray-400 pb-10'>Currency</p>
                     <div className='flex flex-col'>
-                        <div className='flex flex-row gap-6'>
-                            <div className='flex flex-row gap-2 items-center'>
-                                <FaBtc className='bg-slate-200 text-slate-400 rounded-full text-2xl p-[3px] pb-1'/>
-                                <p className='text-2xl'>BTC</p>
+                        <div className='flex flex-row pb-8 gap-1'>
+                            <div className='basis-1/3 cursor-pointer group hover:bg-blue-200 flex flex-row gap-2 items-center rounded-[20px] p-1 ease-in-out duration-500'>
+                                <FaBtc className='group-hover:bg-blue-300 group-hover:text-blue-600 ease-in-out duration-500 bg-slate-200 text-slate-400 rounded-full text-2xl p-[3px] pb-1'/>
+                                <p className='text-2xl group-hover:text-blue-600 ease-in-out duration-500'>BTC</p>
                             </div>
-                            <div className='flex flex-row gap-2 items-center'>
-                                <FaEthereum className='bg-slate-200 text-slate-400 rounded-full text-2xl p-[3px] pb-1'/>
-                                <p className='text-2xl'>ETH</p>
+                            <div className='basis-1/3 cursor-pointer group hover:bg-blue-200 flex flex-row gap-2 items-center rounded-[20px] p-1 ease-in-out duration-500'>
+                                <FaEthereum className='group-hover:bg-blue-300 group-hover:text-blue-600 ease-in-out duration-500 bg-slate-200 text-slate-400 rounded-full text-2xl p-[3px] pb-1'/>
+                                <p className='text-2xl group-hover:text-blue-600 ease-in-out duration-500'>ETH</p>
                             </div>
-                            <div className='flex flex-row gap-2 items-center'>
-                                <SiTether className='bg-slate-200 text-slate-400 rounded-full text-2xl p-[3px] pb-1'/>
-                                <p className='text-2xl'>USDT</p>
+                            <div className='basis-1/3 cursor-pointer group hover:bg-blue-200 flex flex-row gap-2 items-center rounded-[20px] p-1 ease-in-out duration-500'>
+                                <SiTether className='group-hover:bg-blue-300 group-hover:text-blue-600 ease-in-out duration-500 bg-slate-200 text-slate-400 rounded-full text-2xl p-[3px] pb-1'/>
+                                <p className='text-2xl group-hover:text-blue-600 ease-in-out duration-500'>USDT</p>
                             </div>
                         </div>
-                        <div className='flex flex-row'>
-                            <div className='basis-1/2'>
-                                <p>Clear</p>
-                            </div>
-                            <div className='basis-1/2'>
-                                <p>Apply</p>
-                            </div>
+                        <div className='flex flex-row gap-4'>
+                            <button className='basis-1/2 border-2 border-blue-500 rounded-[20px] h-[65px] flex items-center justify-center'>
+                                <p className='text-xl text-center pb-1'>Clear</p>
+                            </button>
+                            <button className='basis-1/2 bg-blue-500 rounded-[20px] flex items-center justify-center'>
+                                <p className='text-xl text-center text-white pb-1'>Apply</p>
+                            </button>
                         </div>
                     </div>
                 </div>
