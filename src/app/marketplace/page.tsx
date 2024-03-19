@@ -9,7 +9,7 @@ import { TbMathLower } from "react-icons/tb";
 import { blue } from '@mui/material/colors';
 import { TbMathGreater } from "react-icons/tb";
 import { Checkbox } from '@mui/material';
-import { PriceSlider } from '@/components';
+import { CheckBoxSection, PriceSlider } from '@/components';
 import { FaBtc } from "react-icons/fa6";
 import { FaEthereum } from "react-icons/fa";
 import { SiTether } from "react-icons/si";
@@ -137,63 +137,34 @@ const page = () => {
         </div>
         <div className='flex flex-row px-[100px]'>
             <div className='flex flex-col gap-10 bg-white rounded-[30px] px-5 py-10 w-[350px] shadow-xl'>
-                <div className='flex flex-col gap-3'>
-                    <div className='flex flex-row items-center gap-2'>
-                        <Checkbox inputProps={{ 'aria-label': 'controlled' }} sx={{ '& .MuiSvgIcon-root': { fontSize: 28 }, color: blue[600] }}/>
-                        <p className='text-lg'>Premium</p>
-                    </div>
-                    <div className='flex flex-row items-center gap-2'>
-                        <Checkbox inputProps={{ 'aria-label': 'controlled' }} sx={{ '& .MuiSvgIcon-root': { fontSize: 28 }, color: blue[600] }}/>
-                        <p className='text-lg'>Art</p>
-                    </div>
-                    <div className='flex flex-row items-center gap-2'>
-                        <Checkbox inputProps={{ 'aria-label': 'controlled' }} sx={{ '& .MuiSvgIcon-root': { fontSize: 28 }, color: blue[600] }}/>
-                        <p className='text-lg'>Sport</p>
-                    </div>
-                    <div className='flex flex-row items-center gap-2'>
-                        <Checkbox inputProps={{ 'aria-label': 'controlled' }} sx={{ '& .MuiSvgIcon-root': { fontSize: 28 }, color: blue[600] }}/>
-                        <p className='text-lg'>Entertainment</p>
-                    </div>
-                    <div className='flex flex-row items-center gap-2'>
-                        <Checkbox inputProps={{ 'aria-label': 'controlled' }} sx={{ '& .MuiSvgIcon-root': { fontSize: 28 }, color: blue[600] }}/>
-                        <p className='text-lg'>Games</p>
-                    </div>
-                    <div className='flex flex-row items-center gap-2'>
-                        <Checkbox inputProps={{ 'aria-label': 'controlled' }} sx={{ '& .MuiSvgIcon-root': { fontSize: 28 }, color: blue[600] }}/>
-                        <p className='text-lg'>Collecting</p>
-                    </div>
-                    <div className='flex flex-row items-center gap-2'>
-                        <Checkbox inputProps={{ 'aria-label': 'controlled' }} sx={{ '& .MuiSvgIcon-root': { fontSize: 28 }, color: blue[600] }}/>
-                        <p className='text-lg'>Cybersports</p>
-                    </div>
-                </div>
+                <CheckBoxSection/>
                 <div className='flex flex-col border-t-2 border-gray-200 pt-6'>
                     <p className='text-xl text-gray-400 pb-10'>Price Range</p>
                     <PriceSlider/>
                 </div>
-                <div>
-                    <p className='text-xl text-gray-400 pb-10'>Currency</p>
+                <div className='border-t-2 border-gray-200'>
+                    <p className='text-xl text-gray-400 pb-5 pt-6'>Currency</p>
                     <div className='flex flex-col'>
                         <div className='flex flex-row pb-8 gap-1'>
                             <div className='basis-1/3 cursor-pointer group hover:bg-blue-200 flex flex-row gap-2 items-center rounded-[20px] p-1 ease-in-out duration-500'>
                                 <FaBtc className='group-hover:bg-blue-300 group-hover:text-blue-600 ease-in-out duration-500 bg-slate-200 text-slate-400 rounded-full text-2xl p-[3px] pb-1'/>
-                                <p className='text-2xl group-hover:text-blue-600 ease-in-out duration-500'>BTC</p>
+                                <p className='text-[22px] group-hover:text-blue-600 ease-in-out duration-500'>BTC</p>
                             </div>
                             <div className='basis-1/3 cursor-pointer group hover:bg-blue-200 flex flex-row gap-2 items-center rounded-[20px] p-1 ease-in-out duration-500'>
                                 <FaEthereum className='group-hover:bg-blue-300 group-hover:text-blue-600 ease-in-out duration-500 bg-slate-200 text-slate-400 rounded-full text-2xl p-[3px] pb-1'/>
-                                <p className='text-2xl group-hover:text-blue-600 ease-in-out duration-500'>ETH</p>
+                                <p className='text-[22px] group-hover:text-blue-600 ease-in-out duration-500'>ETH</p>
                             </div>
                             <div className='basis-1/3 cursor-pointer group hover:bg-blue-200 flex flex-row gap-2 items-center rounded-[20px] p-1 ease-in-out duration-500'>
                                 <SiTether className='group-hover:bg-blue-300 group-hover:text-blue-600 ease-in-out duration-500 bg-slate-200 text-slate-400 rounded-full text-2xl p-[3px] pb-1'/>
-                                <p className='text-2xl group-hover:text-blue-600 ease-in-out duration-500'>USDT</p>
+                                <p className='text-[22px] group-hover:text-blue-600 ease-in-out duration-500'>USDT</p>
                             </div>
                         </div>
                         <div className='flex flex-row gap-4'>
-                            <button className='basis-1/2 border-2 border-blue-500 rounded-[20px] h-[65px] flex items-center justify-center'>
-                                <p className='text-xl text-center pb-1'>Clear</p>
+                            <button className='group basis-1/2 border-2 border-blue-500 hover:bg-blue-500 rounded-[20px] h-[65px] flex items-center justify-center ease-in-out duration-700'>
+                                <p className='group-hover:text-white text-xl text-center pb-1'>Clear</p>
                             </button>
-                            <button className='basis-1/2 bg-blue-500 rounded-[20px] flex items-center justify-center'>
-                                <p className='text-xl text-center text-white pb-1'>Apply</p>
+                            <button className='group basis-1/2 bg-blue-500 hover:bg-white hover:border-2 hover:border-blue-500 rounded-[20px] flex items-center justify-center ease-in-out duration-700'>
+                                <p className='text-xl text-center text-white group-hover:text-blue-500 pb-1'>Apply</p>
                             </button>
                         </div>
                     </div>
