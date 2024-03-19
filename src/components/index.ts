@@ -7,6 +7,7 @@ import Benefit from "./Benefit";
 import Carousel from "./Carousel/Carousel";
 import CTA from "./CTA";
 import PriceSlider from "./PriceSlider";
+import CheckBoxSection from "./CheckBoxSection";
 
 export{
     Navbar,
@@ -17,5 +18,6 @@ export{
     GetStarted,
     Benefit,
     CTA,
-    PriceSlider
+    PriceSlider,
+    CheckBoxSection
 }
