@@ -8,6 +8,7 @@ import Carousel from "./Carousel/Carousel";
 import CTA from "./CTA";
 import PriceSlider from "./PriceSlider";
 import CheckBoxSection from "./CheckBoxSection";
+import NFTCard from "./NFTCard";
 
 export{
     Navbar,
@@ -19,5 +20,6 @@ export{
     Benefit,
     CTA,
     PriceSlider,
-    CheckBoxSection
+    CheckBoxSection,
+    NFTCard
 }
