@@ -2,7 +2,22 @@ import React from 'react'
 
 const NFTCard = () => {
   return (
-    <div>NFTCard</div>
+    <div className='flex flex-col p-4'>
+      <div>
+
+      </div>
+      <div className='flex flex-row justify-between'>
+        <p></p>
+        <p></p>
+      </div>
+      <div>
+        <p></p>
+      </div>
+      <div className='flex flex-row justify-between'>
+        <p></p>
+        <p></p>
+      </div>
+    </div>
   )
 }
 
