@@ -9,7 +9,7 @@ import { TbMathLower } from "react-icons/tb";
 import { blue } from '@mui/material/colors';
 import { TbMathGreater } from "react-icons/tb";
 import { Checkbox } from '@mui/material';
-import { CheckBoxSection, PriceSlider } from '@/components';
+import { CheckBoxSection, NFTCard, PriceSlider } from '@/components';
 import { FaBtc } from "react-icons/fa6";
 import { FaEthereum } from "react-icons/fa";
 import { SiTether } from "react-icons/si";
@@ -170,8 +170,8 @@ const page = () => {
                     </div>
                 </div>
             </div>
-            <div>
-
+            <div className='grid grid-flow-col'>
+                <NFTCard name={"abv"} price={12} img={"ewads"}/>
             </div>
         </div>
     </div>
