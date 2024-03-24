@@ -1,5 +1,6 @@
 
 import React from 'react'
+import { FaEthereum } from "react-icons/fa";
 
 const NFTCard = ({name}:{name:string}, {price}:{price:number}, {img}:{img:string}) => {
   return (
@@ -9,7 +10,7 @@ const NFTCard = ({name}:{name:string}, {price}:{price:number}, {img}:{img:string
       </div>
       <div className='flex flex-row justify-between'>
         <p>{name}</p>
-        <p></p>
+        <p><FaEthereum/></p>
       </div>
       <div>
         <p></p>
