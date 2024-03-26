@@ -13,6 +13,7 @@ import { CheckBoxSection, NFTCard, PriceSlider } from '@/components';
 import { FaBtc } from "react-icons/fa6";
 import { FaEthereum } from "react-icons/fa";
 import { SiTether } from "react-icons/si";
+import nft1 from "./images/nft1.png"
 
 const page = () => {
   return (
@@ -171,7 +172,9 @@ const page = () => {
                 </div>
             </div>
             <div className='grid grid-flow-col'>
-                <NFTCard name={"abv"} price={12} img={"ewads"}/>
+                <NFTCard name={"abv"} price={12} img={nft1}/>
+                <NFTCard name={"abv"} price={12} img={nft1}/>
+                <NFTCard name={"abv"} price={12} img={nft1}/>
             </div>
         </div>
     </div>
