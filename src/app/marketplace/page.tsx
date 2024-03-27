@@ -136,7 +136,7 @@ const page = () => {
                 </div>
             </div>
         </div>
-        <div className='flex flex-row px-[100px]'>
+        <div className='flex flex-row pl-[100px] pr-[80px]'>
             <div className='flex flex-col gap-10 bg-white rounded-[30px] px-5 py-10 w-[350px] shadow-xl'>
                 <CheckBoxSection/>
                 <div className='flex flex-col border-t-2 border-gray-200 pt-6'>
@@ -171,10 +171,10 @@ const page = () => {
                     </div>
                 </div>
             </div>
-            <div className='grid grid-flow-col'>
-                <NFTCard name={"abv"} price={12} img={nft1}/>
-                <NFTCard name={"abv"} price={12} img={nft1}/>
-                <NFTCard name={"abv"} price={12} img={nft1}/>
+            <div className='pl-14 gap-5 grid grid-flow-col'>
+                <NFTCard name={"abv"} price={12} img={nft1.src}/>
+                <NFTCard name={"abv"} price={12} img={nft1.src}/>
+                <NFTCard name={"abv"} price={12} img={nft1.src}/>
             </div>
         </div>
     </div>
