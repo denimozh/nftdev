@@ -9,6 +9,7 @@ import CTA from "./CTA";
 import PriceSlider from "./PriceSlider";
 import CheckBoxSection from "./CheckBoxSection";
 import NFTCard from "./NFTCard";
+import NFTCardDisplay from "./NFTCardDisplay";
 
 export{
     Navbar,
@@ -21,5 +22,6 @@ export{
     CTA,
     PriceSlider,
     CheckBoxSection,
-    NFTCard
+    NFTCard,
+    NFTCardDisplay
 }
