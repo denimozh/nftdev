@@ -22,7 +22,7 @@ const NFTCard: React.FC<Props> = ({name, price, img}) => {
     <div className='relative flex flex-col p-4'>
       <div className='bg-white p-5 rounded-[30px]'>
         <div className=''>
-          <img src={img} alt='123' className='h-[450px] w-[400px] rounded-[20px]'/>
+          <img src={img} alt='123' className='h-[500px] w-[400px] rounded-[20px]'/>
         </div>
         <div className='pt-5'>
           <div className='flex flex-row justify-between'>
