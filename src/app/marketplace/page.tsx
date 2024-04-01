@@ -21,9 +21,9 @@ const page = () => {
             <p className='text-center text-7xl text-white'>Collectables For You</p>
         </div>
         <div className='w-full pb-20 pt-10'>
-            <p className='pl-24 text-gray-300 pb-5 text-3xl'>Category</p>
+            <p className='pl-20 text-gray-300 pb-5 text-3xl'>Category</p>
             <div className='flex flex-col w-full'>
-                <div className='flex flex-row w-full justify-center gap-10'>
+                <div className='flex flex-row w-full justify-center gap-20'>
                     <div className='flex flex-row items-center bg-white border-2 border-slate-200 px-4 rounded-full'>
                         <div className='border-r pr-6'>
                             <IoSearch className='text-[30px]'/>
@@ -135,8 +135,8 @@ const page = () => {
                 </div>
             </div>
         </div>
-        <div className='flex flex-row pl-[100px] pr-[80px]'>
-            <div className='flex flex-col gap-10 bg-white rounded-[30px] px-5 py-10 w-[350px] shadow-xl'>
+        <div className='flex flex-row pl-[60px] '>
+            <div className='flex flex-col gap-10 bg-white rounded-[30px] px-5 py-10 w-[350px] shadow-xl h-1/2'>
                 <CheckBoxSection/>
                 <div className='flex flex-col border-t-2 border-gray-200 pt-6'>
                     <p className='text-xl text-gray-400 pb-10'>Price Range</p>
@@ -170,7 +170,7 @@ const page = () => {
                     </div>
                 </div>
             </div>
-            <div className='pl-14 gap-5 grid grid-flow-col'>
+            <div className='pl-10'>
                 <NFTCardDisplay />
             </div>
         </div>
